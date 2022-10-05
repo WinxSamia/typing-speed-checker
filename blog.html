@@ -1,3 +1,17 @@
 Q1. localStorage vs sessionStorage
 Ans: The data kept in localStorage does not desapear but the data kept in sessionStorage
 desapear after a refresh/reload.
+
+
+Q2. Difference between global scope and block scope
+Ans:If any varibale or constant declared in global scope, that variable can be accessed from
+any scope but a variable or constant declared in block scope, that is accessed only from that
+particular block.
+
+
+Q3.How JS eventloop works
+Ans:The event loop is a process that waits for the Call Stack to be clear before pushing callbacks
+from the Task Queue to the Call Stack. Once the Stack is clear, the event loop triggers and checks the Task Queue for
+available callbacks.
+If there are any, it pushes it to the Call Stack, waits for the Call Stack to be clear again, and repeats the same
+process.
